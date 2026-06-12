@@ -1,9 +1,17 @@
 set helplang=ja
-:syntax on
-:colorscheme desert
-:set number
-:set autoindent
+syntax on
+colorscheme desert
+set number
+set autoindent
 
 set laststatus=2
 set statusline=%<%f\ %([%{&fenc}]%)%h%m%r%=%l,%c%V\ %P
+
+set cursorline
+set showcmd
+set incsearch
+set hlsearch
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
